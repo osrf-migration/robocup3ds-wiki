@@ -3,7 +3,7 @@ Effectors allow agents to perform actions within the simulation. Agents control 
 Effector messages take the form of s-expressions that the client sends to the server. The following effector messages are accepted by the server:
 
 ### 1. Hinge Joint  
-**(<name> <ax>)**
+**(<name> <ax>)**  
 This sets the joint velocities of the agent in the server. <name> is the name of the joint in the agent's model while <ax> is in radians per second.
 
 ### 2. Say  
