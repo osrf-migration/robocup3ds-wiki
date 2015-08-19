@@ -2,8 +2,8 @@ Effectors allow agents to perform actions within the simulation.  Agents control
 
 Effector messages take the form of s-expressions that the client sends to the server. The following effector messages are accepted by the server:
 
-1. Hinge Joint
+1. Hinge Joint  
 (<name> <ax>)
 
-2. Say
+2. Say  
 (<say> <msg>)
