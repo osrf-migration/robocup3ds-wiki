@@ -16,4 +16,8 @@ This creates an agent in the server's game world with a unique id <playernumber>
 
 4. ### Beam  
 **(beam <x> <y> <rot>)**  
-This beams the agent to a particular location on the field. XY coordinates are specified with <x> and <y>, while <rot> specifies the orientation of the agent when beamed. The Z coordinates are fixed height unique to the body type of the agent. 
+This beams the agent to a particular location on the field. XY coordinates are specified with <x> and <y>, while <rot> specifies the orientation of the agent when beamed. The Z coordinates are fixed height unique to the body type of the agent.
+
+5. ### Body Type
+**(scene <bodytypename>)**  
+This specifies the body type of the agent that will be created later with the Init effector. The <bodytypename> must match one of the supported body types. 
