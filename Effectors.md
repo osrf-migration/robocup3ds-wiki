@@ -8,7 +8,7 @@ This sets the joint velocities of the agent in the server. <name> is the name of
 
 ### 2. Say  
 **(say <msg>)**  
-This creates a message that will be broadcast to the server. <msg> must be no more than 20 characters long and contain characters from the ASCII subset [0x21; 0x7E] excluding [0x28; 0x29]. 
+This creates a message that will be broadcast to all other agents in the server. <msg> must be no more than 20 characters long and contain characters from the ASCII subset [0x21; 0x7E] excluding [0x28; 0x29]. 
 
 ### 3. Init  
 **(init (unum <playernumber>)(teamname <yourteamname>))**  
