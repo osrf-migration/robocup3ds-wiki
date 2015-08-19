@@ -10,4 +10,5 @@ The is the wiki for the Robocup 3D simulator plugin for Gazebo (robocup3ds). Lin
 
 ## External Links: ##
 
-* [Old Simspark Server Wiki](http://simspark.sourceforge.net/wiki/index.php/Main_Page) The Gazebo version of the server is very similar in features and functionality to the old server. If this wiki does not contain the information you seek, you can probably find it here. 
+* [Old Simspark Server Wiki](http://simspark.sourceforge.net/wiki/index.php/Main_Page)  
+The Gazebo version of the server is very similar in features and functionality to the old server. If this wiki does not contain the information you seek, you can probably find it here. 
