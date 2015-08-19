@@ -23,3 +23,5 @@ This beams the agent to a particular location on the field. XY coordinates are s
 ### 5. Body Type
 **(scene <bodytypename>)**  
 This specifies the body type of the agent that will be created later with the Init effector. The <bodytypename> must match one of the supported body types. The only supported body type right now is "NaoOfficialBT".
+
+# Monitor Effectors #
