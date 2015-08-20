@@ -25,6 +25,7 @@ This beams the agent to a particular location on the field. XY coordinates are s
 This specifies the body type of the agent that will be created later with the Init effector. The <bodytypename> must match one of the supported body types. The only supported body type right now is "NaoOfficialBT".
 
 # Monitor Effectors #
+Monitor effectors allow the a third party to change certain states of the game. The currently supported commands are listed below.
 
 ### 1. Beam
 **(agent (unum <num>) (team <team>) (pos <x> <y> <z>)
