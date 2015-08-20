@@ -30,4 +30,4 @@ This specifies the body type of the agent that will be created later with the In
 **(agent (unum <num>) (team <team>) (pos <x> <y> <z>)
                                    (move <x> <y> <z> <rot>))**  
 
-This is similar to the client's Beam effector except that an additional <z> (height) dimension is added. The message may contain either a pos or move s-expression.  
+This is similar to the agent's Beam effector except that an additional <z> (height) dimension is added. The message may contain either a pos or move s-expression.  
