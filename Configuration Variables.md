@@ -1,4 +1,4 @@
-Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. 
+Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). 
 
 They are the following:  
 1. **gamestate_secondsfullgame** - Duration of a complete game. Setting this also overwrites any previous values for gamestate_secondseachhalf.  
@@ -18,3 +18,5 @@ They are the following:
 15. **gamestate_fallentimelimit** - An agent who has fallen for longer than this amount of time is moved to side of field.  
 16. **percept_hfov** - The horizontal field of vision of the agent.  
 17. **percept_vfov** - The vertical field of vision of the agent.  
+18. **percept_restrictvision** - When set to true, the vision of the agent is restricted to the values set by percept_hfov and percept_vfov.  
+19. **percept_groundtruthinfo** - When set to true, ground truth information regarding the position and orientation of the agent and ball are sent back to the client as a s-expression.  
