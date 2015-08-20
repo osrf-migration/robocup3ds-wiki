@@ -1,4 +1,4 @@
-![RCSSServer3D-Play-Modes.png](https://bitbucket.org/repo/A9ekGz/images/822703460-RCSSServer3D-Play-Modes.png =1000x600)
+![RCSSServer3D-Play-Modes.png](https://bitbucket.org/repo/A9ekGz/images/822703460-RCSSServer3D-Play-Modes.png =700x600)
 
 The play modes supported by the robocup3ds plugin are described below:
 
