@@ -8,6 +8,8 @@ The is the wiki for the Robocup 3D simulator plugin for Gazebo (robocup3ds). Lin
 * [Installation Instructions](https://bitbucket.org/osrf/robocup3ds/wiki/Installation%20Instructions)
 * [Effector Message Format](https://bitbucket.org/osrf/robocup3ds/wiki/Effectors)
 * [Configuration Variables](https://bitbucket.org/osrf/robocup3ds/wiki/Configuration%20Variables)
+* [Play Modes](https://bitbucket.org/osrf/robocup3ds/wiki/Play%20Modes)
+
 
 ## External Links: ##
 
