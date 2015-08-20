@@ -22,8 +22,8 @@ GameState: This object keeps track of the state of the game and rule violations 
 
 Perceptor: This object fills in the Agent Percept container with the update method. It also is responsible for sending a s-expression string to the server using the send method.
 
-Effector: This object parses any s-expression sent by the server using the onconnect callback. It is reponsible for updating Agent Action container via its update method and keep track of which agent id is associated with socket id.
+Effector: This object parses any s-expression sent by the server using the OnConnect() callback. It is reponsible for updating Agent Action container via its update method and keep track of which agent id is associated with socket id.
 
-Server: The server manages connections from the client. When it receives data on a tcp socket, it calls the onconnect method in the Effector object. When the Perceptor finishes updating, it calls the send method and the server sends the data back to the client through the socket.
+Server: The server manages connections from the client. When it receives data on a tcp socket, it calls the OnConnect() method in the Effector object. When the Perceptor finishes updating, it calls the send method and the server sends the data back to the client through the socket. When a client disconnects, the OnDisconnect() method in Effector is called. 
 
 Agent Action/Percept: These are simply container classes for various perception and effector information. They do not have any methods. Each Agent object has an agent action and agent percept object
