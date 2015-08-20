@@ -25,3 +25,9 @@ This beams the agent to a particular location on the field. XY coordinates are s
 This specifies the body type of the agent that will be created later with the Init effector. The <bodytypename> must match one of the supported body types. The only supported body type right now is "NaoOfficialBT".
 
 # Monitor Effectors #
+
+### 1. Beam
+(agent (unum <num>) (team <team>) (pos <x> <y> <z>)
+                                   (move <x> <y> <z> <rot>))  
+
+This is similar to the client's Beam effector except that an additional <z> (height) dimension is added. The message may contain either a pos or move s-expression.  
