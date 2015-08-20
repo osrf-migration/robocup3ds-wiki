@@ -1,5 +1,10 @@
 Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). 
 
+The format used for these variables is the following:
+
+**<variablename>[value]</variablename>**
+
+
 They are the following:  
 1. **gamestate_secondsfullgame** - Duration of a complete game. Setting this also overwrites any previous values for gamestate_secondseachhalf.  
 2. **gamestate_secondseachhalf** - Duration of each half of a game. Setting this also overwrites any previous values for gamestate_secondsfullgame.  
@@ -20,3 +25,7 @@ They are the following:
 17. **percept_vfov** - The vertical field of vision of the agent.  
 18. **percept_restrictvision** - When set to true, the vision of the agent is restricted to the values set by percept_hfov and percept_vfov.  
 19. **percept_groundtruthinfo** - When set to true, ground truth information regarding the position and orientation of the agent and ball are sent back to the client as a s-expression.  
+20. **robocup3dsplugin_monitorport** - Port number used for sending monitor messages.  
+21. **robocup3dsplugin_clientport** - Port number used for sending agent messages.  
+22. **robocup3dsplugin_syncmode** - Turns on sync mode. When sync mode is turned on, the server waits all agents to send a syn message before going to next iteration of simulation. 
+ 
