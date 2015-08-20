@@ -4,7 +4,7 @@ They are the following:
 1. **gamestate_secondsfullgame** - Duration of a complete game. Setting this also overwrites any previous values for gamestate_secondseachhalf.  
 2. **gamestate_secondseachhalf** - Duration of each half of a game. Setting this also overwrites any previous values for gamestate_secondsfullgame.  
 3. **gamestate_secondskickinpause** - Duration of pause when transitioning to the KickIn play mode. During pauses, gameplay rules are not enforced.  
-4. **gamestate_secondskickin** - Duration of KickIn, CornerKick, GoalKick, and Freekick play modes. Once the time limit is exceeded, the play mode automatically transitions to PlayOn.
+4. **gamestate_secondskickin** - Duration of KickIn, CornerKick, GoalKick, and Freekick play modes. Once the time limit is exceeded, the play mode automatically transitions to PlayOn.  
 5. **gamestate_secondsbeforekickoff** - Duration of BeforeKickOff play mode. The timer only starts when at least 1 agent is on the field.  
 6. **gamestate_secondskickoff** - Duration of KickOff play mode. Transitions to PlayOn afterwards.  
 7. **gamestate_dropballradius** - Radius around ball in meters that is cleared when a drop ball occurs. One or both teams are not allowed with this radius of the ball.  
