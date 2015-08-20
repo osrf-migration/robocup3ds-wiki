@@ -1,3 +1,5 @@
+![800px-RCSSServer3D-Play-Modes.png](https://bitbucket.org/repo/A9ekGz/images/2078521042-800px-RCSSServer3D-Play-Modes.png)
+
 The play modes supported by the robocup3ds plugin are described below:
 
 1. **BeforeKickOff**  
