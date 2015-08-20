@@ -1,7 +1,5 @@
 ![server architecture.png](https://bitbucket.org/repo/A9ekGz/images/3764532903-server%20architecture.png)
 
-![server architecture.png](https://bitbucket.org/repo/A9ekGz/images/2822619674-server%20architecture.png)
-
 ### Legend: ###
 
 **[Grey box]** 
