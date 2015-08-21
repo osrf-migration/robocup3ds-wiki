@@ -16,7 +16,7 @@ This is the wiki for the Robocup 3D simulator plugin for Gazebo (robocup3ds). Li
 
 ## External Links: ##
 
-* [Simspark Server Wiki](http://simspark.sourceforge.net/wiki/index.php/Main_Page)  
+* [SimSpark Server Wiki](http://simspark.sourceforge.net/wiki/index.php/Main_Page)  
 The Gazebo version of the server is very similar in features and functionality to the SimSpark server. If this wiki does not contain the information you seek, you can probably find it here. 
 * [Game rules](http://chaosscripting.net/files/competitions/RoboCup/WorldCup/2014/3DSim/RCSoccerSim3D_Rules2013.pdf)  
 The robocup game rules that this plugin implements.  
