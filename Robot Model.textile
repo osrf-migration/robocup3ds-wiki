@@ -1,0 +1,29 @@
+!https://bitbucket.org/repo/A9ekGz/images/2901327566-RobotBoxModel.png(title)!
+This page presents the parameters used to model the robot to be similar to the robot used in "Simspark":http://simspark.sourceforge.net/wiki/index.php/Models simulator. The name of this robot is NAO_Type_Zero which is the primary humanoid robot that is used in RoboCup soccer simulation competition.
+A detailed description of the link configuration of this model is given by the following table:
+
+| Name| Parent | Translation  | Mass  | Geometry |
+| Base_Link |  | |1.2171 | Box 0.100, 0.100, 0.180|
+| Neck | Base_Link |0, 0, 0.09 | 0.35| Sphere 0.065 |
+| Shoulder | Base_Link | 0, 0.098, 0.075   ^R^ 0, -0.098, 0.075 ^L^ | 0.07 | Sphere 0.01 |
+| Bicep | Shoulder |0.02, 0.098, 0.075   ^R^ 0.02, -0.098, 0.075 ^L^ | 0.15 | Box 0.07, 0.08, 0.06 |
+| Elbow | Bicep |0.09, 0.098, 0.084   ^R^ 0.09, -0.098, 0.084 ^L^ | 0.035 | Sphere 0.01 |
+| ForeArm | Elbow | 0.14, 0.098, 0.084   ^R^ 0.14, -0.098, 0.084 ^L^ | 0.2 | Box 0.05, 0.11, 0.05 |
+| Hip1 |  Base_Link  | 0, 0.055, -0.115   ^R^ 0, -0.055, -0.115 ^L^ | 0.09 | Sphere 0.01 |
+| Hip |  Hip1  | 0, 0.055, -0.115   ^R^ 0, -0.055, -0.115 ^L^ | 0.125 | Sphere 0.01 |
+| Thigh | Hip | 0, 0.055, -0.155   ^R^ 0, -0.055, -0.155 ^L^ | 0.275 | Box 0.07, 0.07, 0.14 |
+| Tibia | Thigh | 0, 0.055, -0.28   ^R^ 0, -0.055, -0.28 ^L^ | 0.225 | Box 0.08, 0.07, 0.11 |
+| Ankle | Tibia | 0, 0.055, -0.33   ^R^ 0, -0.055, -0.33 ^L^ | 0.125 | Sphere 0.01 |
+| Sole | Ankle | 0, 0.055, -0.375   ^R^ 0, -0.055, -0.375 ^L^ | 0.2  | Box 0.08, 0.16, 0.02 |
+
+Where:
+*Name* is the link's name
+*Parent* is the link's parent 
+*Translation* is the offset relative to Base_Link (in meter)
+*Mass* is the mass of the link (in kilogram)
+*Geometry* is the size and geometry shape of the link (in meter) 
+
+
+
+
+
