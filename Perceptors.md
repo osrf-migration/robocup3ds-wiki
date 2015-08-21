@@ -43,10 +43,10 @@ Lines are described by two points "(L (pol ...) (pol ...))". <distance> <angle1>
 Landmarks are described by <name> and a point s-expression.  
 
 ### 3. Other Agent Body Parts  
-The name (<bodypart>) and position of the following body parts of all agents are displayed:  
-**Body Part       Name**
-Head	        head
-Right lower arm	rlowerarm
-Left lower arm	llowerarm
-Right foot	rfoot
-Left foot	lfoot
+The name (specified by <bodypart>) and position (specified by (pol ...)) of the following body parts of all agents are displayed:  
+**Body Part       Name**  
+Head	        head  
+Right lower arm	rlowerarm  
+Left lower arm	llowerarm  
+Right foot	rfoot  
+Left foot	lfoot  
