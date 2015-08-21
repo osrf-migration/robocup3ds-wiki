@@ -1,6 +1,10 @@
 # Gazebo support for the RoboCup 3D simulator league #
 
-### Build And Install RoboCup 3D Gazebo simulation.
+### Install required dependencies ###
+
+ToDo
+
+### Build And Install RoboCup 3D Gazebo simulation
 
 1. Clone the repository into a directory in your home folder:
 
