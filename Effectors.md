@@ -32,3 +32,16 @@ Monitor effectors allow the a third party to change certain states of the game. 
                                    (move <x> <y> <z> <rot>))**  
 
 This is similar to the agent's Beam effector except that an additional <z> (height) dimension is added. The message may contain either a pos or move s-expression.  
+
+### 2. Move Ball
+** (ball (pos <x> <y> <z>)
+       (vel <x> <y> <z>))**  
+This moves the ball to a particular position and also assigns a velocity.  
+
+### 3. Change Play Mode
+** (playMode <playmode>)**  
+This changes the playmode to the name specified by <playmode>.  
+
+### 4. Remove Agent
+**(kill (unum <num>) (team <team>))**  
+This removes the agent with uniform number <num> and belonging to <team> from the game.
