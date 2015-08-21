@@ -10,6 +10,6 @@ These the following s-expressions that are sent by robocup3ds back to the client
 **(mypos <x> <y> <z>) (myorien <yaw>) (ballpos <x> <y> <z>)**  
 
 # Vision Perceptor #
-(See +(<name> (pol <distance> <angle1> <angle2>))  
+**(See +(<name> (pol <distance> <angle1> <angle2>))  
     +(P (team <teamname>) (id <playerID>) +(<bodypart> (pol <distance> <angle1> <angle2>)))  
-    +(L (pol <distance> <angle1> <angle2>) (pol <distance> <angle1> <angle2>)))  
+    +(L (pol <distance> <angle1> <angle2>) (pol <distance> <angle1> <angle2>)))**  
