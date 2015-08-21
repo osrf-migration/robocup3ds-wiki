@@ -12,6 +12,8 @@ This is the wiki for the Robocup 3D simulator plugin for Gazebo (robocup3ds). Li
 * [Perceptor Message Format](https://bitbucket.org/osrf/robocup3ds/wiki/Perceptors) - Description regarding messages that the server send back to the client.  
 * [Configuration Variables](https://bitbucket.org/osrf/robocup3ds/wiki/Configuration%20Variables) - Variables regarding the game that can be changed.
 * [Play Modes](https://bitbucket.org/osrf/robocup3ds/wiki/Play%20Modes) - Description regarding various play modes of a game.  
+* [Robot Model](https://bitbucket.org/osrf/robocup3ds/wiki/Robot%20Model) - Specification of the used robot model .  
+
 
 
 ## External Links: ##
