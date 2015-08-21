@@ -31,7 +31,7 @@ If the ground truth configuration variable is enabled. The robot's current posit
 
 # Vision Perceptor #
 **(See (<name> (pol <distance> <angle1> <angle2>))  
-(P (team <teamname>) (id <playerID>) (<bodypart> (pol <distance> <angle1> <angle2>)))  
+(P (team <teamname>) (id <unum>) (<bodypart> (pol <distance> <angle1> <angle2>)))  
 (L (pol <distance> <angle1> <angle2>) (pol <distance> <angle1> <angle2>)))** 
 
 The vision perceptor only displays relevant objects which are within the agent's horizontal and vertical field of view.  
@@ -43,7 +43,7 @@ Lines are described by two points "(L (pol ...) (pol ...))". <distance> <angle1>
 Landmarks are described by <name> and "(pol ...)", a point s-expression.  
 
 ### 3. Other Agent Body Parts  
-The name (specified by <bodypart>) and position (specified by "(pol ...)") of the following body parts of all agents are displayed:  
+The name (specified by <bodypart>) and position (specified by "(pol ...)") of the following body parts of all agents (specified by <unum> and <teamname>) are displayed:  
 **Body Part/Name**  
 1. Head/head  
 2. Right lower arm/rlowerarm  
