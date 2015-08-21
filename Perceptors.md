@@ -44,9 +44,9 @@ Landmarks are described by <name> and a point s-expression.
 
 ### 3. Other Agent Body Parts  
 The name (specified by <bodypart>) and position (specified by (pol ...)) of the following body parts of all agents are displayed:  
-**Body Part       Name**  
-Head	        head  
-Right lower arm	rlowerarm  
-Left lower arm	llowerarm  
-Right foot	rfoot  
-Left foot	lfoot  
+**Body Part/Name**  
+1. Head/head  
+2. Right lower arm/rlowerarm  
+3. Left lower arm/llowerarm  
+4. Right foot/rfoot  
+5. Left foot/lfoot  
