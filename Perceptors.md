@@ -40,10 +40,10 @@ The vision perceptor only displays relevant objects which are within the agent's
 Lines are described by two points "(L (pol ...) (pol ...))". <distance> <angle1> <angle2> are the spherical coordinates of the point in the agent's local coordinate frame. 
 
 ### 2. Landmark Information
-Landmarks are described by <name> and a point s-expression.  
+Landmarks are described by <name> and "(pol ...)", a point s-expression.  
 
 ### 3. Other Agent Body Parts  
-The name (specified by <bodypart>) and position (specified by (pol ...)) of the following body parts of all agents are displayed:  
+The name (specified by <bodypart>) and position (specified by "(pol ...)") of the following body parts of all agents are displayed:  
 **Body Part/Name**  
 1. Head/head  
 2. Right lower arm/rlowerarm  
