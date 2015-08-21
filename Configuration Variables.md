@@ -1,4 +1,4 @@
-Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). 
+Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). All variable names must be in lowercase. 
 
 The format used for these variables is the following:
 
