@@ -9,6 +9,7 @@ The is the wiki for the Robocup 3D simulator plugin for Gazebo (robocup3ds). Lin
 * [Server Architecture](https://bitbucket.org/osrf/robocup3ds/wiki/Server%20Architecture) - Overview of the various components of the server.  
 * [Installation Instructions](https://bitbucket.org/osrf/robocup3ds/wiki/Installation%20Instructions) - Instructions for installing the plugin.
 * [Effector Message Format](https://bitbucket.org/osrf/robocup3ds/wiki/Effectors) - Message protocol used by client for controlling the agent.
+* [Perceptor Message Format](https://bitbucket.org/osrf/robocup3ds/wiki/Perceptors) - Description regarding messages that the server send back to the client.  
 * [Configuration Variables](https://bitbucket.org/osrf/robocup3ds/wiki/Configuration%20Variables) - Variables regarding the game that can be changed.
 * [Play Modes](https://bitbucket.org/osrf/robocup3ds/wiki/Play%20Modes) - Description regarding various play modes of a game.  
 
