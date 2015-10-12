@@ -2,7 +2,7 @@
 
 ### Install required dependencies ###
 
-ToDo
+The RoboCup 3d plugin requires Gazebo 6 or higher. Follow the Gazebo 6 installation tutorial for installing Gazebo on your machine.
 
 ### Build And Install RoboCup 3D Gazebo simulation
 
