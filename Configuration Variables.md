@@ -29,9 +29,7 @@ They are the following:
 21. **robocup3dsplugin_clientport** - Port number used for sending agent messages.  
 22. **robocup3dsplugin_syncmode** - Turns on sync mode. When sync mode is turned on, the server waits all agents to send a syn message before going to next iteration of simulation. 
  
-Additionally, players can configure the joint PID parameters of each of the supported body types for agents. The configuration variable name must have the format pid_**[bodytypename]**_**[jointname]**, where **[bodytypename]** is the name of the body type and **[jointname]** is name of the model of the joint. Five space separated floating point values must be specified. They are:  
+Additionally, players can configure the joint PID parameters of each of the supported body types for agents. The configuration variable name must have the format pid_**[bodytypename]**_**[jointname]**, where **[bodytypename]** is the name of the body type and **[jointname]** is name of the model of the joint. Three floating point values separated by spaces must be specified. They are:  
   1. P gain  
   2. I gain  
   3. D gain  
-  4. Min/max value for I  
-  5. Min/max for force outputted by PID  
