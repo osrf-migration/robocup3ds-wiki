@@ -1,4 +1,4 @@
-Certain configuration variables related to gameplay can be set in robocup3d.world, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). All variable names must be in lowercase. 
+Certain configuration variables related to gameplay can be set in `robocup3d.world`, the SDF file used to load the robocup3ds plugin. Variables can either take on floating point values (ex: 2.359) or boolean values (true/false). All variable names must be in lowercase. 
 
 The format used for these variables is the following:
 
@@ -33,3 +33,38 @@ Additionally, players can configure the joint PID parameters of each of the supp
   1. P gain  
   2. I gain  
   3. D gain  
+
+This is partial view of a modified `robocup3d.world` with some custom parameters:
+
+
+```
+#!c++
+
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <world name="default">
+
+    <physics type="ode">
+      <max_step_size>0.001</max_step_size>
+    </physics>
+
+    <! ... -->
+
+    <!-- RoboCup 3D simulator ball -->
+    <include>
+      <pose>0 0 0 0 0 0</pose>
+      <uri>model://robocup_3Dsim_ball</uri>
+    </include>
+
+    <!-- Load the RoboCup 3D plugin -->
+    <plugin name="robocup3dplugin" filename="librobocup3dsPlugin.so">
+      <robocup3dsplugin_syncmode>false</robocup3dsplugin_syncmode>
+      <gamestate_immobilitytimelimit>7</gamestate_immobilitytimelimit>
+      <gamestate_fallentimelimit>5</gamestate_fallentimelimit>
+      <gamestate_secondskickoff>5</gamestate_secondskickoff>
+      <gamestate_secondseachhalf>20</gamestate_secondseachhalf>
+      <percept_groundtruthinfo>true</percept_groundtruthinfo>
+    </plugin>
+  </world>
+</sdf>
+```
